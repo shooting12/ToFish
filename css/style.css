@@ -3,18 +3,41 @@
 }
 
 body {
-    background-color: black;
+    background-color: lightblue;
+    text-align: center;
 }
 
-/* --- Info --- */
+/* --- Top --- */
 font#intro {
-    color: white;
+    color: black;
     font-size: 200%;    
     font-weight: bold;
     font-family: monospace;
     font-style:oblique;
 }
 
-img#profile {
+img#icon_fish {
+    width: calc(100vw/16); 
+}
+
+img#UnderConstruction {
     width: calc(100vw/2); 
+}
+
+/* --- Bottom --- */
+div#divider_bottom {
+    height: 100px;
+}
+
+img#icon_gun {
+    width: calc(100vw/12); 
+}
+
+font#copyright {
+    color: gray;
+    font-size: 150%;  
+}
+
+img#qr_code {
+    width: calc(100vw/12); 
 }
